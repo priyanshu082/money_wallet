@@ -1,7 +1,0 @@
-
-data base connection string
-postgresql://neondb_owner:4bOPfrx0gkBe@ep-damp-wave-a52cp7sx-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require
-
-
-pooling connection string
-APIKEY=DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiZDdiYjM2NzAtMjVhOC00ZTRhLWI3OGQtNmVhZDIwMDdlZDY1IiwidGVuYW50X2lkIjoiMDdjYmFmMmJjYzkzMDJmZjA5OGUyZTgwYmU1NTUzMzBmYTQ0MjJlNjYzOWEzZmJiYzA3YTM3Y2Y1YmE0MWQzYiIsImludGVybmFsX3NlY3JldCI6ImNhN2YxNjUxLTQwYTItNGU3Ny04ZTg3LTA4YTAwNTI5OWJiOCJ9.-5f9Qo_2Ad7QE0p-SY_zEVSGZrXICHm-CwSABn7Y5wE"
