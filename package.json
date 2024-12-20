@@ -21,6 +21,12 @@
     "packages/*"
   ],
   "dependencies": {
-    "@clerk/nextjs": "^6.9.2"
+    "@clerk/nextjs": "^6.9.2",
+    "@heroicons/react": "^2.2.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.468.0"
   }
 }
