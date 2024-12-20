@@ -1,5 +1,5 @@
 "use client"
-const Select = ({ options, onSelect }: {
+const Select = ({options, onSelect }: {
     onSelect: (value: string) => void;
     options: {
         key: string;

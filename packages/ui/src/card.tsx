@@ -1,22 +1,20 @@
-import { type JSX } from "react";
+import React from 'react'
 
-export function Card({
-  className,
+const card = ({
   title,
   children,
 }: {
-  className?: string;
   title: string;
-  children: React.ReactNode;
-}): JSX.Element {
-  return (
-    <div
-      className={className}
-    >
-      <h2>
-        {title} <span>-&gt;</span>
-      </h2>
-      <p>{children}</p>
-    </div>
-  );
+  children?: React.ReactNode;
+}) => {
+  return <div
+  className="border p-4"
+>
+  <h1 className="text-xl border-b pb-2">
+    {title}
+  </h1>
+  <p>{children}</p>
+</div>
 }
+
+export default card
