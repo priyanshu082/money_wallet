@@ -1,9 +1,10 @@
 import React from 'react'
+import { AddMoneyCard } from '../../../components/AddMoneyCard'
 
 const page = () => {
   return (
     <div>
-        transfer
+        <AddMoneyCard/>
     </div>
   )
 }
