@@ -17,7 +17,7 @@ app.post("/hdfc", async (req, res) => {
 
             prisma.balance.update({
                 where: {
-                    userId: Number(payementInformation.userId)
+                    userId: payementInformation.userId
                 },
                 data: {
                     amount: Number(payementInformation.amount)
@@ -46,7 +46,7 @@ app.post("/hdfc", async (req, res) => {
     }
 })
 
-const generateToken =async (userId: number) => {
+const generateToken =async (userId: string) => {
     return jwt.sign(
         { userId },
         process.env.JWT_SECRET || 'priyanshu',
@@ -54,7 +54,7 @@ const generateToken =async (userId: number) => {
     )
 }
 
-app.post("/login", async (req, res) => {
+app.post("/user", async (req, res) => {
     const user = req.body
     try {
         const userExist = await prisma.user.findUnique({
