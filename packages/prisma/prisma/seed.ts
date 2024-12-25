@@ -6,6 +6,7 @@ async function main() {
     where: { number: '1111111111' },
     update: {},
     create: {
+      id:"yoyo1",
       number: '1111111111',
       password: "bob",
       name: 'alice',
@@ -30,6 +31,7 @@ async function main() {
     where: { number: '2222222222' },
     update: {},
     create: {
+      id:"yoyo2",
       number: '2222222222',
       password: "bob",
       name: 'bob',
