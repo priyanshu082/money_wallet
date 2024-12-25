@@ -20,6 +20,8 @@ export default function Home() {
     }
   }, [user, isLoaded, router])
 
+  console.log(user)
+
   return (
     <div className="h-[100vh] flex justify-center flex-col items-center bg-teal-600">
       <div className="text-white text-3xl font-bold mb-8">
