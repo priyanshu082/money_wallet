@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '@repo/ui/card'
+import Card from '@repo/ui/Card'
 
 // Define possible transaction statuses
 export type TransactionStatus = 'Success' | 'Failure' | 'Processing'

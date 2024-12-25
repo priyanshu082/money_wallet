@@ -1,6 +1,6 @@
 import React from 'react'
 
-const card = ({
+const Card = ({
   title,
   children,
 }: {
@@ -17,4 +17,4 @@ const card = ({
 </div>
 }
 
-export default card
+export default Card
